@@ -6,8 +6,6 @@ Netflix Stream Data Analytics is a data-driven project focused on analyzing Netf
 
 This project demonstrates the use of Python-based analytics tools and big data technologies for handling and visualizing streaming platform data efficiently.
 
-⸻
-
 🚀 Features
 
 * 📊 Real-time and historical streaming data analysis
@@ -16,8 +14,6 @@ This project demonstrates the use of Python-based analytics tools and big data t
 * 📈 Interactive dashboards and visualizations
 * ⚡ Large-scale data processing using PySpark
 * 🧠 Data-driven insights for recommendation and decision-making
-
-⸻
 
 🛠️ Tech Stack
 
@@ -42,8 +38,6 @@ Tools & Platforms
 * Jupyter Notebook
 * Git & GitHub
 
-⸻
-
 📂 Project Structure
 
 Netflix-Stream-Data-Analytics/
@@ -55,8 +49,6 @@ Netflix-Stream-Data-Analytics/
 ├── requirements.txt       # Required Python libraries
 ├── README.md              # Project documentation
 └── main.py                # Main execution file
-
-⸻
 
 📊 Dataset
 
@@ -75,8 +67,6 @@ Datasets can be sourced from:
 * Netflix Open Data Sources
 * Public streaming datasets
 
-⸻
-
 ⚙️ Installation
 
 1️⃣ Clone the Repository
@@ -91,8 +81,6 @@ cd Netflix-Stream-Data-Analytics
 
 pip install -r requirements.txt
 
-⸻
-
 ▶️ Running the Project
 
 Run Python Analysis
@@ -103,8 +91,6 @@ Run Streamlit Dashboard
 
 streamlit run app.py
 
-⸻
-
 📈 Sample Analysis Performed
 
 * Most watched genres
@@ -114,8 +100,6 @@ streamlit run app.py
 * Viewer engagement analysis
 * Streaming behavior insights
 
-⸻
-
 🎯 Project Objectives
 
 * Analyze large-scale streaming data efficiently
@@ -124,13 +108,9 @@ streamlit run app.py
 * Demonstrate big data analytics using PySpark
 * Improve decision-making through analytics
 
-⸻
-
 📸 Dashboard Preview
 
 Add screenshots of your Streamlit dashboard or analytics visualizations here.
-
-⸻
 
 🔮 Future Enhancements
 
