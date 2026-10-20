@@ -1,0 +1,434 @@
+[
+  {
+    "id": "sample-1",
+    "title": "Sample Film 01",
+    "type": "Movie",
+    "releaseYear": 2016,
+    "country": "India",
+    "genres": "Comedies",
+    "rating": "TV-14"
+  },
+  {
+    "id": "sample-2",
+    "title": "Sample Film 02",
+    "type": "Movie",
+    "releaseYear": 2006,
+    "country": "United Kingdom",
+    "genres": "Documentaries",
+    "rating": "PG-13"
+  },
+  {
+    "id": "sample-3",
+    "title": "Sample Series 03",
+    "type": "TV Show",
+    "releaseYear": 2017,
+    "country": "South Korea",
+    "genres": "Thrillers, Dramas",
+    "rating": "PG"
+  },
+  {
+    "id": "sample-4",
+    "title": "Sample Film 04",
+    "type": "Movie",
+    "releaseYear": 2007,
+    "country": "Japan",
+    "genres": "TV Dramas, International TV Shows",
+    "rating": "TV-PG"
+  },
+  {
+    "id": "sample-5",
+    "title": "Sample Film 05",
+    "type": "Movie",
+    "releaseYear": 2018,
+    "country": "India, United States",
+    "genres": "Kids\u2019 TV",
+    "rating": "TV-MA"
+  },
+  {
+    "id": "sample-6",
+    "title": "Sample Series 06",
+    "type": "TV Show",
+    "releaseYear": 2008,
+    "country": "United States",
+    "genres": "Dramas, International Movies",
+    "rating": "TV-14"
+  },
+  {
+    "id": "sample-7",
+    "title": "Sample Film 07",
+    "type": "Movie",
+    "releaseYear": 2019,
+    "country": "India",
+    "genres": "Comedies",
+    "rating": "PG-13"
+  },
+  {
+    "id": "sample-8",
+    "title": "Sample Film 08",
+    "type": "Movie",
+    "releaseYear": 2009,
+    "country": "United Kingdom",
+    "genres": "Documentaries",
+    "rating": "PG"
+  },
+  {
+    "id": "sample-9",
+    "title": "Sample Series 09",
+    "type": "TV Show",
+    "releaseYear": 2020,
+    "country": "South Korea",
+    "genres": "Thrillers, Dramas",
+    "rating": "TV-PG"
+  },
+  {
+    "id": "sample-10",
+    "title": "Sample Film 10",
+    "type": "Movie",
+    "releaseYear": 2010,
+    "country": "Japan",
+    "genres": "TV Dramas, International TV Shows",
+    "rating": "TV-MA"
+  },
+  {
+    "id": "sample-11",
+    "title": "Sample Film 11",
+    "type": "Movie",
+    "releaseYear": 2021,
+    "country": "India, United States",
+    "genres": "Kids\u2019 TV",
+    "rating": "TV-14"
+  },
+  {
+    "id": "sample-12",
+    "title": "Sample Series 12",
+    "type": "TV Show",
+    "releaseYear": 2011,
+    "country": "United States",
+    "genres": "Dramas, International Movies",
+    "rating": "PG-13"
+  },
+  {
+    "id": "sample-13",
+    "title": "Sample Film 13",
+    "type": "Movie",
+    "releaseYear": 2022,
+    "country": "India",
+    "genres": "Comedies",
+    "rating": "PG"
+  },
+  {
+    "id": "sample-14",
+    "title": "Sample Film 14",
+    "type": "Movie",
+    "releaseYear": 2012,
+    "country": "United Kingdom",
+    "genres": "Documentaries",
+    "rating": "TV-PG"
+  },
+  {
+    "id": "sample-15",
+    "title": "Sample Series 15",
+    "type": "TV Show",
+    "releaseYear": 2023,
+    "country": "South Korea",
+    "genres": "Thrillers, Dramas",
+    "rating": "TV-MA"
+  },
+  {
+    "id": "sample-16",
+    "title": "Sample Film 16",
+    "type": "Movie",
+    "releaseYear": 2013,
+    "country": "Japan",
+    "genres": "TV Dramas, International TV Shows",
+    "rating": "TV-14"
+  },
+  {
+    "id": "sample-17",
+    "title": "Sample Film 17",
+    "type": "Movie",
+    "releaseYear": 2024,
+    "country": "India, United States",
+    "genres": "Kids\u2019 TV",
+    "rating": "PG-13"
+  },
+  {
+    "id": "sample-18",
+    "title": "Sample Series 18",
+    "type": "TV Show",
+    "releaseYear": 2014,
+    "country": "United States",
+    "genres": "Dramas, International Movies",
+    "rating": "PG"
+  },
+  {
+    "id": "sample-19",
+    "title": "Sample Film 19",
+    "type": "Movie",
+    "releaseYear": 2025,
+    "country": "India",
+    "genres": "Comedies",
+    "rating": "TV-PG"
+  },
+  {
+    "id": "sample-20",
+    "title": "Sample Film 20",
+    "type": "Movie",
+    "releaseYear": 2015,
+    "country": "United Kingdom",
+    "genres": "Documentaries",
+    "rating": "TV-MA"
+  },
+  {
+    "id": "sample-21",
+    "title": "Sample Series 21",
+    "type": "TV Show",
+    "releaseYear": 2005,
+    "country": "South Korea",
+    "genres": "Thrillers, Dramas",
+    "rating": "TV-14"
+  },
+  {
+    "id": "sample-22",
+    "title": "Sample Film 22",
+    "type": "Movie",
+    "releaseYear": 2016,
+    "country": "Japan",
+    "genres": "TV Dramas, International TV Shows",
+    "rating": "PG-13"
+  },
+  {
+    "id": "sample-23",
+    "title": "Sample Film 23",
+    "type": "Movie",
+    "releaseYear": 2006,
+    "country": "India, United States",
+    "genres": "Kids\u2019 TV",
+    "rating": "PG"
+  },
+  {
+    "id": "sample-24",
+    "title": "Sample Series 24",
+    "type": "TV Show",
+    "releaseYear": 2017,
+    "country": "United States",
+    "genres": "Dramas, International Movies",
+    "rating": "TV-PG"
+  },
+  {
+    "id": "sample-25",
+    "title": "Sample Film 25",
+    "type": "Movie",
+    "releaseYear": 2007,
+    "country": "India",
+    "genres": "Comedies",
+    "rating": "TV-MA"
+  },
+  {
+    "id": "sample-26",
+    "title": "Sample Film 26",
+    "type": "Movie",
+    "releaseYear": 2018,
+    "country": "United Kingdom",
+    "genres": "Documentaries",
+    "rating": "TV-14"
+  },
+  {
+    "id": "sample-27",
+    "title": "Sample Series 27",
+    "type": "TV Show",
+    "releaseYear": 2008,
+    "country": "South Korea",
+    "genres": "Thrillers, Dramas",
+    "rating": "PG-13"
+  },
+  {
+    "id": "sample-28",
+    "title": "Sample Film 28",
+    "type": "Movie",
+    "releaseYear": 2019,
+    "country": "Japan",
+    "genres": "TV Dramas, International TV Shows",
+    "rating": "PG"
+  },
+  {
+    "id": "sample-29",
+    "title": "Sample Film 29",
+    "type": "Movie",
+    "releaseYear": 2009,
+    "country": "India, United States",
+    "genres": "Kids\u2019 TV",
+    "rating": "TV-PG"
+  },
+  {
+    "id": "sample-30",
+    "title": "Sample Series 30",
+    "type": "TV Show",
+    "releaseYear": 2020,
+    "country": "United States",
+    "genres": "Dramas, International Movies",
+    "rating": "TV-MA"
+  },
+  {
+    "id": "sample-31",
+    "title": "Sample Film 31",
+    "type": "Movie",
+    "releaseYear": 2010,
+    "country": "India",
+    "genres": "Comedies",
+    "rating": "TV-14"
+  },
+  {
+    "id": "sample-32",
+    "title": "Sample Film 32",
+    "type": "Movie",
+    "releaseYear": 2021,
+    "country": "United Kingdom",
+    "genres": "Documentaries",
+    "rating": "PG-13"
+  },
+  {
+    "id": "sample-33",
+    "title": "Sample Series 33",
+    "type": "TV Show",
+    "releaseYear": 2011,
+    "country": "South Korea",
+    "genres": "Thrillers, Dramas",
+    "rating": "PG"
+  },
+  {
+    "id": "sample-34",
+    "title": "Sample Film 34",
+    "type": "Movie",
+    "releaseYear": 2022,
+    "country": "Japan",
+    "genres": "TV Dramas, International TV Shows",
+    "rating": "TV-PG"
+  },
+  {
+    "id": "sample-35",
+    "title": "Sample Film 35",
+    "type": "Movie",
+    "releaseYear": 2012,
+    "country": "India, United States",
+    "genres": "Kids\u2019 TV",
+    "rating": "TV-MA"
+  },
+  {
+    "id": "sample-36",
+    "title": "Sample Series 36",
+    "type": "TV Show",
+    "releaseYear": 2023,
+    "country": "United States",
+    "genres": "Dramas, International Movies",
+    "rating": "TV-14"
+  },
+  {
+    "id": "sample-37",
+    "title": "Sample Film 37",
+    "type": "Movie",
+    "releaseYear": 2013,
+    "country": "India",
+    "genres": "Comedies",
+    "rating": "PG-13"
+  },
+  {
+    "id": "sample-38",
+    "title": "Sample Film 38",
+    "type": "Movie",
+    "releaseYear": 2024,
+    "country": "United Kingdom",
+    "genres": "Documentaries",
+    "rating": "PG"
+  },
+  {
+    "id": "sample-39",
+    "title": "Sample Series 39",
+    "type": "TV Show",
+    "releaseYear": 2014,
+    "country": "South Korea",
+    "genres": "Thrillers, Dramas",
+    "rating": "TV-PG"
+  },
+  {
+    "id": "sample-40",
+    "title": "Sample Film 40",
+    "type": "Movie",
+    "releaseYear": 2025,
+    "country": "Japan",
+    "genres": "TV Dramas, International TV Shows",
+    "rating": "TV-MA"
+  },
+  {
+    "id": "sample-41",
+    "title": "Sample Film 41",
+    "type": "Movie",
+    "releaseYear": 2015,
+    "country": "India, United States",
+    "genres": "Kids\u2019 TV",
+    "rating": "TV-14"
+  },
+  {
+    "id": "sample-42",
+    "title": "Sample Series 42",
+    "type": "TV Show",
+    "releaseYear": 2005,
+    "country": "United States",
+    "genres": "Dramas, International Movies",
+    "rating": "PG-13"
+  },
+  {
+    "id": "sample-43",
+    "title": "Sample Film 43",
+    "type": "Movie",
+    "releaseYear": 2016,
+    "country": "India",
+    "genres": "Comedies",
+    "rating": "PG"
+  },
+  {
+    "id": "sample-44",
+    "title": "Sample Film 44",
+    "type": "Movie",
+    "releaseYear": 2006,
+    "country": "United Kingdom",
+    "genres": "Documentaries",
+    "rating": "TV-PG"
+  },
+  {
+    "id": "sample-45",
+    "title": "Sample Series 45",
+    "type": "TV Show",
+    "releaseYear": 2017,
+    "country": "South Korea",
+    "genres": "Thrillers, Dramas",
+    "rating": "TV-MA"
+  },
+  {
+    "id": "sample-46",
+    "title": "Sample Film 46",
+    "type": "Movie",
+    "releaseYear": 2007,
+    "country": "Japan",
+    "genres": "TV Dramas, International TV Shows",
+    "rating": "TV-14"
+  },
+  {
+    "id": "sample-47",
+    "title": "Sample Film 47",
+    "type": "Movie",
+    "releaseYear": 2018,
+    "country": "India, United States",
+    "genres": "Kids\u2019 TV",
+    "rating": "PG-13"
+  },
+  {
+    "id": "sample-48",
+    "title": "Sample Series 48",
+    "type": "TV Show",
+    "releaseYear": 2008,
+    "country": "United States",
+    "genres": "Dramas, International Movies",
+    "rating": "PG"
+  }
+]
