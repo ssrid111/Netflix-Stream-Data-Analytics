@@ -1,139 +1,49 @@
-🎬 Netflix Stream Data Analytics
+# Netflix Stream Data Analytics — StreamLens
 
-📌 Overview
+This project started as a notebook for exploring Netflix catalogue data. StreamLens turns that analysis into a dashboard you can actually use: import a CSV, filter the catalogue, and see how releases, genres, countries, and ratings compare.
 
-Netflix Stream Data Analytics is a data-driven project focused on analyzing Netflix streaming trends, user engagement, and content performance using big data and visualization techniques. The project processes streaming datasets to uncover valuable insights about viewer behavior, genre popularity, and content consumption patterns.
+## Versions
 
-This project demonstrates the use of Python-based analytics tools and big data technologies for handling and visualizing streaming platform data efficiently.
+| Version | Branch | What it includes |
+| --- | --- | --- |
+| Original notebook | `main` | The existing `netflix.ipynb` exploration |
+| Web dashboard v1 | `dashboard-web-v1` | Responsive dashboard, filters, CSV import and export |
+| SwiftUI v2 | `swiftui-v2` | The web dashboard plus a native iPhone/iPad app in `ios/` |
 
-🚀 Features
+[Open the web dashboard](https://streamlens-swetha.swetha-sangeetha2809.chatgpt.site) · [App portfolio](https://streamlens-swetha.swetha-sangeetha2809.chatgpt.site/portfolio.html)
 
-* 📊 Real-time and historical streaming data analysis
-* 🎥 Content popularity and genre trend analysis
-* 👥 User engagement and viewing pattern insights
-* 📈 Interactive dashboards and visualizations
-* ⚡ Large-scale data processing using PySpark
-* 🧠 Data-driven insights for recommendation and decision-making
+## About the data
 
-🛠️ Tech Stack
+The notebook references `netflix_titles.csv` on Google Drive, but that CSV isn't in this repository. The dashboards include **48 clearly labeled invented sample titles** so you can preview them. Import your own catalogue CSV to work with real data.
 
-Programming Languages
+These are catalogue statistics, not streaming engagement measurements. A list of titles doesn't tell us which titles were watched most or how long people watched.
 
-* Python
-* SQL
+## Run the web dashboard
 
-Libraries & Frameworks
+```bash
+python3 -m http.server 8000 --directory web/dist
+```
 
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Plotly
-* PySpark
-* Streamlit
+Open **http://localhost:8000**. No dependency installation or build step is needed.
 
-Tools & Platforms
+Choose **Import catalogue CSV** to load a UTF-8 file under 20 MB. It needs `title`, `type`, and `release_year` columns. Optional fields include `country`, `listed_in`, and `rating`. Type values should be `Movie` or `TV Show`. Invalid rows are skipped and counted.
 
-* Google Colab
-* Jupyter Notebook
-* Git & GitHub
+You can search titles or genres, filter by country and year, switch between catalogue and trend views, and export your filtered selection. Imported files stay in the browser. Country and genre charts count a title in each listed category, so category totals can exceed the number of titles.
 
-📂 Project Structure
+Run the analytics checks with:
 
-Netflix-Stream-Data-Analytics/
-│
-├── data/                  # Dataset files
-├── notebooks/             # Jupyter notebooks for analysis
-├── visualizations/        # Charts and dashboard images
-├── app/                   # Streamlit dashboard files
-├── requirements.txt       # Required Python libraries
-├── README.md              # Project documentation
-└── main.py                # Main execution file
+```bash
+node --test tests/analytics.test.cjs
+```
 
-📊 Dataset
+## SwiftUI app
 
-The project uses Netflix streaming datasets containing information such as:
+Switch to the `swiftui-v2` branch and open **ios/StreamLens.xcodeproj**. See `ios/README.md` there for details. It targets iOS 17+, uses Swift Charts, and imports catalogue CSV files on-device.
 
-* Movie and TV show titles
-* Genre categories
-* Ratings
-* Release years
-* Viewing statistics
-* User engagement metrics
+## What's next
 
-Datasets can be sourced from:
+- Test on physical iPhones and iPads.
+- Add accessible chart summaries and larger-dataset performance checks.
+- Add optional import persistence and release-date filters.
 
-* Kaggle
-* Netflix Open Data Sources
-* Public streaming datasets
-
-⚙️ Installation
-
-1️⃣ Clone the Repository
-
-git clone https://github.com/ssrid111/Netflix-Stream-Data-Analytics.git
-
-2️⃣ Navigate to the Project Folder
-
-cd Netflix-Stream-Data-Analytics
-
-3️⃣ Install Dependencies
-
-pip install -r requirements.txt
-
-▶️ Running the Project
-
-Run Python Analysis
-
-python main.py
-
-Run Streamlit Dashboard
-
-streamlit run app.py
-
-📈 Sample Analysis Performed
-
-* Most watched genres
-* Year-wise content trends
-* Content rating distribution
-* Popular movies and shows
-* Viewer engagement analysis
-* Streaming behavior insights
-
-🎯 Project Objectives
-
-* Analyze large-scale streaming data efficiently
-* Understand viewer behavior and preferences
-* Build interactive data visualizations
-* Demonstrate big data analytics using PySpark
-* Improve decision-making through analytics
-
-📸 Dashboard Preview
-
-Add screenshots of your Streamlit dashboard or analytics visualizations here.
-
-🔮 Future Enhancements
-
-* AI-powered recommendation system
-* Real-time streaming analytics pipeline
-* Predictive trend analysis using machine learning
-* Cloud deployment using AWS/GCP
-* Advanced user segmentation
-
-👩‍💻 Author
-
-Swetha Sridharan
-
-Software Engineering Graduate Student at Arizona State University
-
-* GitHub: https://github.com/ssrid111
-* LinkedIn: https://www.linkedin.com/in/swetha-sridharan28
-
-⭐ Contributing
-
-Contributions, suggestions, and improvements are welcome.
-Feel free to fork the repository and submit a pull request.
-
-📜 License
-
-This project is developed for educational and research purposes.
+Independent portfolio project; not affiliated with Netflix. No App Store release or software license has been added yet.

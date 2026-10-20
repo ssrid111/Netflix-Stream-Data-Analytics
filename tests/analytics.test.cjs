@@ -1,0 +1,5 @@
+const test=require('node:test'),assert=require('node:assert/strict'),A=require('../web/dist/analytics.js');
+test('CSV handles quoted commas, escaped quotes, CRLF, and multiline titles',()=>{let r=A.catalog('title,type,release_year,country,listed_in\r\n"A, ""quoted""\nfilm",Movie,2020,"India, United States","Drama, Comedy"');assert.equal(r.rows[0].title,'A, "quoted"\nfilm');assert.equal(A.groups(r.rows,x=>A.tokens(x.country)).length,2)});
+test('invalid rows are counted and mandatory headers enforced',()=>{assert.throws(()=>A.catalog('name,year\na,2020'),/needs/);let r=A.catalog('title,type,release_year\nGood,Movie,2020\nBad,Film,no');assert.equal(r.skipped,1);assert.equal(r.rows.length,1)});
+test('filters and genre counts respect multi-valued categories',()=>{let r=A.catalog('title,type,release_year,country,listed_in\nA,Movie,2020,India,"Drama, Drama"\nB,TV Show,2010,Japan,Comedy').rows;assert.equal(A.filter(r,{country:'India',year:2020}).length,1);assert.equal(A.groups(r,x=>A.tokens(x.genres)).find(x=>x.name==='Drama').count,1)});
+test('unclosed quoted CSV is rejected',()=>assert.throws(()=>A.parseCSV('"oops'),/unclosed/));
