@@ -1,0 +1,49 @@
+show_id,title,type,release_year,country,listed_in,rating
+sample-1,Sample Film 01,Movie,2016,India,Comedies,TV-14
+sample-2,Sample Film 02,Movie,2006,United Kingdom,Documentaries,PG-13
+sample-3,Sample Series 03,TV Show,2017,South Korea,"Thrillers, Dramas",PG
+sample-4,Sample Film 04,Movie,2007,Japan,"TV Dramas, International TV Shows",TV-PG
+sample-5,Sample Film 05,Movie,2018,"India, United States",Kids’ TV,TV-MA
+sample-6,Sample Series 06,TV Show,2008,United States,"Dramas, International Movies",TV-14
+sample-7,Sample Film 07,Movie,2019,India,Comedies,PG-13
+sample-8,Sample Film 08,Movie,2009,United Kingdom,Documentaries,PG
+sample-9,Sample Series 09,TV Show,2020,South Korea,"Thrillers, Dramas",TV-PG
+sample-10,Sample Film 10,Movie,2010,Japan,"TV Dramas, International TV Shows",TV-MA
+sample-11,Sample Film 11,Movie,2021,"India, United States",Kids’ TV,TV-14
+sample-12,Sample Series 12,TV Show,2011,United States,"Dramas, International Movies",PG-13
+sample-13,Sample Film 13,Movie,2022,India,Comedies,PG
+sample-14,Sample Film 14,Movie,2012,United Kingdom,Documentaries,TV-PG
+sample-15,Sample Series 15,TV Show,2023,South Korea,"Thrillers, Dramas",TV-MA
+sample-16,Sample Film 16,Movie,2013,Japan,"TV Dramas, International TV Shows",TV-14
+sample-17,Sample Film 17,Movie,2024,"India, United States",Kids’ TV,PG-13
+sample-18,Sample Series 18,TV Show,2014,United States,"Dramas, International Movies",PG
+sample-19,Sample Film 19,Movie,2025,India,Comedies,TV-PG
+sample-20,Sample Film 20,Movie,2015,United Kingdom,Documentaries,TV-MA
+sample-21,Sample Series 21,TV Show,2005,South Korea,"Thrillers, Dramas",TV-14
+sample-22,Sample Film 22,Movie,2016,Japan,"TV Dramas, International TV Shows",PG-13
+sample-23,Sample Film 23,Movie,2006,"India, United States",Kids’ TV,PG
+sample-24,Sample Series 24,TV Show,2017,United States,"Dramas, International Movies",TV-PG
+sample-25,Sample Film 25,Movie,2007,India,Comedies,TV-MA
+sample-26,Sample Film 26,Movie,2018,United Kingdom,Documentaries,TV-14
+sample-27,Sample Series 27,TV Show,2008,South Korea,"Thrillers, Dramas",PG-13
+sample-28,Sample Film 28,Movie,2019,Japan,"TV Dramas, International TV Shows",PG
+sample-29,Sample Film 29,Movie,2009,"India, United States",Kids’ TV,TV-PG
+sample-30,Sample Series 30,TV Show,2020,United States,"Dramas, International Movies",TV-MA
+sample-31,Sample Film 31,Movie,2010,India,Comedies,TV-14
+sample-32,Sample Film 32,Movie,2021,United Kingdom,Documentaries,PG-13
+sample-33,Sample Series 33,TV Show,2011,South Korea,"Thrillers, Dramas",PG
+sample-34,Sample Film 34,Movie,2022,Japan,"TV Dramas, International TV Shows",TV-PG
+sample-35,Sample Film 35,Movie,2012,"India, United States",Kids’ TV,TV-MA
+sample-36,Sample Series 36,TV Show,2023,United States,"Dramas, International Movies",TV-14
+sample-37,Sample Film 37,Movie,2013,India,Comedies,PG-13
+sample-38,Sample Film 38,Movie,2024,United Kingdom,Documentaries,PG
+sample-39,Sample Series 39,TV Show,2014,South Korea,"Thrillers, Dramas",TV-PG
+sample-40,Sample Film 40,Movie,2025,Japan,"TV Dramas, International TV Shows",TV-MA
+sample-41,Sample Film 41,Movie,2015,"India, United States",Kids’ TV,TV-14
+sample-42,Sample Series 42,TV Show,2005,United States,"Dramas, International Movies",PG-13
+sample-43,Sample Film 43,Movie,2016,India,Comedies,PG
+sample-44,Sample Film 44,Movie,2006,United Kingdom,Documentaries,TV-PG
+sample-45,Sample Series 45,TV Show,2017,South Korea,"Thrillers, Dramas",TV-MA
+sample-46,Sample Film 46,Movie,2007,Japan,"TV Dramas, International TV Shows",TV-14
+sample-47,Sample Film 47,Movie,2018,"India, United States",Kids’ TV,PG-13
+sample-48,Sample Series 48,TV Show,2008,United States,"Dramas, International Movies",PG
